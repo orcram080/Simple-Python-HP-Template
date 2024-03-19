@@ -1,0 +1,7 @@
+HP = 10
+print("HP: ",HP)
+print("you got shot -10")
+HP = (HP - 10)
+print("HP: ",HP)
+if (HP <= 0):
+    print("You Died")
